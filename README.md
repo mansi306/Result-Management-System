@@ -108,7 +108,6 @@ python main.py
 - [🏠 Dashboard Page](Images/Dashboard_page.png)
 - [🏠 Sign In Page](Images/SignIn_page.png)
 - [🏠 Register Page](Images/Register_page.png)
-- [🏠 Course Page](Images/Course_page.png)
 - [🏠 Student Page](Images/Student_page.png)
 - [🏠 Result Page](Images/Result_page.png)
 - [🏠 View_Student_Result Page](Images/View_Student_Result_page.png)
