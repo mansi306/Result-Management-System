@@ -116,11 +116,6 @@ class CourseClass:
             messagebox.showerror("Error",f"Error due to {str(ex)}")
         
 
-    
-    
-    
-    
-    
     def get_data(self,ev):
         self.txt_course_Name.config(state='readonly')
         self.txt_course_Name
@@ -134,8 +129,6 @@ class CourseClass:
         # self.var_course.set(row[4])
         self.txt_description.delete('1.0',END)
         self.txt_description.insert(END,row[4])
-
-
 
     
     def add(self):
@@ -162,8 +155,6 @@ class CourseClass:
 
         except Exception as ex:
             messagebox.showerror("Error",f"Error due to {str(ex)}")
-
-
 
 
     def update(self):
@@ -193,15 +184,6 @@ class CourseClass:
             messagebox.showerror("Error",f"Error due to {str(ex)}")
 
 
-
-
-
-
-
-
-
-
-
     def show(self):
         con = sqlite3.connect(database="rms.db")
         cur=con.cursor()
@@ -214,9 +196,6 @@ class CourseClass:
         except Exception as ex:
             messagebox.showerror("Error",f"Error due to {str(ex)}")
 
-
-
-
     def search(self):
         con = sqlite3.connect(database="rms.db")
         cur=con.cursor()
@@ -228,39 +207,6 @@ class CourseClass:
                 self.CourseTable.insert('',END,values=row)
         except Exception as ex:
             messagebox.showerror("Error",f"Error due to {str(ex)}")
-
-
-
-
-            
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
