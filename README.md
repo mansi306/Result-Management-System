@@ -2,6 +2,7 @@
 
 A desktop-based application developed using **Python (Tkinter)** and **SQLite**, designed to manage and streamline student records and academic results with an interactive graphical user interface (GUI). This project simplifies the process of maintaining student data and calculating results efficiently.
 
+---
 
 ## 📌 Project Overview
 
@@ -25,7 +26,7 @@ The **Student Result Management System** is a simple yet effective application c
 
 ---
 
-## 🏗️ Product Structure
+## 🏗️ Project Structure
 
 The **Student Result Management System** consists of the following main components:
 
@@ -41,25 +42,39 @@ The **Student Result Management System** consists of the following main componen
   - **results** → Stores marks for different subjects.
   
 ### **3. Functional Modules**
+
 | Module          | Description |
 |----------------|------------|
 | `main.py` | Entry point of the application. Handles UI rendering and module navigation. |
 | `student.py` | Manages student data (add, edit, delete, search). |
 | `result.py` | Manages marks entry and calculates results. |
 | `database.py` | Handles SQLite database operations (create, insert, update, delete). |
-| `result_management.db` | SQLite database storing student and result information. |
+| `rms.db` | SQLite database storing student and result information. |
+| `Course.py` | Manages course-related operations. |
+| `Dashboard.py` | Provides an overview and analytics for student results. |
+| `create_db.py` | Script for initializing the database. |
+| `login.py` | Handles user authentication. |
+| `register.py` | Manages user registration. |
+| `report.py` | Generates student performance reports. |
+| `README.md` | Project documentation. |
 
----
-
+```
 Student_Result_Management/
-├── main.py                 # Main file to run the application
-├── student.py              # Module for managing student data
-├── result.py               # Module for result entry and calculations
-├── database.py             # Handles SQLite database queries
-├── result_management.db    # SQLite database file
-├── assets/                 # (Optional) Images or icons for GUI
-└── README.md               # Project documentation
-
+├── Images/                 # Folder for images used in GUI
+├── Result_management_system/
+│   ├── __pycache__/        # Compiled Python files
+│   ├── Course.py           # Manages courses
+│   ├── Dashboard.py        # Application dashboard
+│   ├── README.md           # Project documentation
+│   ├── create_db.py        # Script to create the database
+│   ├── login.py            # Handles user login
+│   ├── register.py         # Handles user registration
+│   ├── report.py           # Generates reports
+│   ├── result.py           # Handles student results
+│   ├── rms.db              # SQLite database file
+│   ├── student.py          # Manages student records
+└── clock_new.png           # Clock image used in GUI
+```
 
 ---
 
@@ -71,55 +86,75 @@ Follow the steps below to run this project on your local machine:
 ```bash
 git clone https://github.com/mansi306/student-result-management.git
 cd student-result-management
-2. Install Python
+```
+
+### 2. Install Python
 Ensure Python 3.x is installed on your system.
-👉 Download Python
+👉 [Download Python](https://www.python.org/downloads/)
 
-3. Run the Application
+### 3. Run the Application
+```bash
 python main.py
+```
 
+---
 
-📸 Screenshots
+## 📸 Screenshots
 
-Student Entry Form
-Result Entry Form
-Student Table View
+- **Student Entry Form**
+- **Result Entry Form**
+- **Student Table View**
 
+*(Add relevant screenshots here)*
 
-📈 Future Enhancements
+---
 
-🔐 User Login and Authentication
-📤 Export Results to PDF or Excel
-📅 Attendance Management Integration
-📈 Student Performance Analytics (Graphs & Charts)
-👥 Role-based Access (Admin, Teacher)
+## 📈 Future Enhancements
 
+- 🔐 User Login and Authentication
+- 📤 Export Results to PDF or Excel
+- 📅 Attendance Management Integration
+- 📈 Student Performance Analytics (Graphs & Charts)
+- 👥 Role-based Access (Admin, Teacher)
 
-🧠 Learning Outcomes
+---
 
-GUI development using Tkinter
-Working with SQLite database operations
-Modular programming with Python
-Error handling and data validation
-Real-world software project development experience
+## 🧠 Learning Outcomes
 
+- GUI development using Tkinter
+- Working with SQLite database operations
+- Modular programming with Python
+- Error handling and data validation
+- Real-world software project development experience
 
-📦 Requirements
+---
+
+## 📦 Requirements
 
 This project uses only standard Python libraries. No external installations are required.
-Python 3.x
-Tkinter (pre-installed with Python)
-SQLite (integrated)
 
-👤 Author
-Name: Mansi Laxman Patil
-Email: mp8551142@gmail.com
-GitHub: https://github.com/mansi306
+- Python 3.x
+- Tkinter (pre-installed with Python)
+- SQLite (integrated)
 
-📄 License
-This project is licensed under the MIT License - feel free to use and modify it.
+---
 
-⭐ Support
+## 👤 Author
+
+**Name:** Mansi Laxman Patil  
+**Email:** mp8551142@gmail.com  
+**GitHub:** [mansi306](https://github.com/mansi306)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - feel free to use and modify it.
+
+---
+
+## ⭐ Support
+
 If you like this project, don't forget to ⭐ star the repository.
 Your feedback and suggestions are welcome!
 
