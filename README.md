@@ -100,12 +100,12 @@ python main.py
 ---
 
 ## 📸 Screenshots
+### 🏠 Dashboard Page
+![Dashboard](Images/Dashborad_page.png)
 
-- **Student Entry Form**
-- **Result Entry Form**
-- **Student Table View**
 
-*(Add relevant screenshots here)*
+
+
 
 ---
 
