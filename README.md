@@ -51,16 +51,14 @@ The **Student Result Management System** consists of the following main componen
 
 ---
 
-## 📂 Project Structure
-
-Student_Result_Management/  
-├── main.py # Main file to run the application 
-├── student.py # Module for managing student data 
-├── result.py # Module for result entry and calculations 
-├── database.py # Handles SQLite database queries 
-├── result_management.db # SQLite database file 
-├── assets/ # (Optional) Images or icons for GUI 
-└── README.md # Project documentation
+Student_Result_Management/
+├── main.py                 # Main file to run the application
+├── student.py              # Module for managing student data
+├── result.py               # Module for result entry and calculations
+├── database.py             # Handles SQLite database queries
+├── result_management.db    # SQLite database file
+├── assets/                 # (Optional) Images or icons for GUI
+└── README.md               # Project documentation
 
 
 ---
