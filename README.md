@@ -101,7 +101,7 @@ python main.py
 
 ## 📸 Screenshots
 ### 🏠 Dashboard Page
-![Dashboard](Images/Dashborad_page.png)
+- [🏠 Dashboard Page](Images/Dashborad_page.png)
 
 
 
